@@ -4,4 +4,4 @@ These are instructions for getting on with Peter Chittum's talk, Terminal Veloci
 
 ## Getting Ready
 
-1. [Install][https://developer.salesforce.com/tools/salesforcecli] the Salesforce CLI
+1. [Install](https://developer.salesforce.com/tools/salesforcecli) the Salesforce CLI
