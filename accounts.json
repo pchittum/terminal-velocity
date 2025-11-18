@@ -1,0 +1,110 @@
+{
+  "records": [
+    {
+      "attributes": {
+        "type": "Account",
+        "url": "/services/data/v62.0/sobjects/Account/001d200000IJbkhAAD"
+      },
+      "Id": "001d200000IJbkhAAD",
+      "Rating": null
+    },
+    {
+      "attributes": {
+        "type": "Account",
+        "url": "/services/data/v62.0/sobjects/Account/001d200000IJj9JAAT"
+      },
+      "Id": "001d200000IJj9JAAT",
+      "Rating": "Hot"
+    },
+    {
+      "attributes": {
+        "type": "Account",
+        "url": "/services/data/v62.0/sobjects/Account/001d200000IJj9KAAT"
+      },
+      "Id": "001d200000IJj9KAAT",
+      "Rating": "Warm"
+    },
+    {
+      "attributes": {
+        "type": "Account",
+        "url": "/services/data/v62.0/sobjects/Account/001d200000IJj9LAAT"
+      },
+      "Id": "001d200000IJj9LAAT",
+      "Rating": null
+    },
+    {
+      "attributes": {
+        "type": "Account",
+        "url": "/services/data/v62.0/sobjects/Account/001d200000IJj9MAAT"
+      },
+      "Id": "001d200000IJj9MAAT",
+      "Rating": null
+    },
+    {
+      "attributes": {
+        "type": "Account",
+        "url": "/services/data/v62.0/sobjects/Account/001d200000IJj9NAAT"
+      },
+      "Id": "001d200000IJj9NAAT",
+      "Rating": "Warm"
+    },
+    {
+      "attributes": {
+        "type": "Account",
+        "url": "/services/data/v62.0/sobjects/Account/001d200000IJj9OAAT"
+      },
+      "Id": "001d200000IJj9OAAT",
+      "Rating": "Hot"
+    },
+    {
+      "attributes": {
+        "type": "Account",
+        "url": "/services/data/v62.0/sobjects/Account/001d200000IJj9PAAT"
+      },
+      "Id": "001d200000IJj9PAAT",
+      "Rating": "Cold"
+    },
+    {
+      "attributes": {
+        "type": "Account",
+        "url": "/services/data/v62.0/sobjects/Account/001d200000IJj9QAAT"
+      },
+      "Id": "001d200000IJj9QAAT",
+      "Rating": "Warm"
+    },
+    {
+      "attributes": {
+        "type": "Account",
+        "url": "/services/data/v62.0/sobjects/Account/001d200000IJj9RAAT"
+      },
+      "Id": "001d200000IJj9RAAT",
+      "Rating": null
+    },
+    {
+      "attributes": {
+        "type": "Account",
+        "url": "/services/data/v62.0/sobjects/Account/001d200000IJj9SAAT"
+      },
+      "Id": "001d200000IJj9SAAT",
+      "Rating": null
+    },
+    {
+      "attributes": {
+        "type": "Account",
+        "url": "/services/data/v62.0/sobjects/Account/001d200000IJj9TAAT"
+      },
+      "Id": "001d200000IJj9TAAT",
+      "Rating": "Cold"
+    },
+    {
+      "attributes": {
+        "type": "Account",
+        "url": "/services/data/v62.0/sobjects/Account/001d200000IJj9UAAT"
+      },
+      "Id": "001d200000IJj9UAAT",
+      "Rating": null
+    }
+  ],
+  "totalSize": 13,
+  "done": true
+}

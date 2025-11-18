@@ -1,0 +1,303 @@
+  600  2025-02-19 04:26  cd .oh-my-zsh/
+  601  2025-02-19 04:26  ls -al 
+  602  2025-02-19 04:26  cat oh-my-zsh.sh
+  603  2025-02-19 04:26  cd ..
+  604  2025-02-19 04:26  ls -al 
+  605  2025-02-19 04:26  cp _zshrc .zshrc
+  606  2025-02-19 04:26  touch _zshrc_empty
+  607  2025-02-19 04:26  ls -al _z
+  608  2025-02-19 04:26  ls -al _z*
+  609  2025-02-19 04:26  zed .zshrc
+  610  2025-02-19 04:26  history | head -n 10
+  611  2025-02-19 04:26  cat ~/.zsh_history | tail -n 10 
+  612  2025-02-19 04:26  tail -n 10 ~/.zsh_history
+  613  2025-02-19 04:26  source .zshrc
+  614  2025-02-19 04:26  tail -n 10 ~/.zsh_history
+  615  2025-02-19 04:26  chsh -s /bin/bash
+  616  2025-02-19 04:26  echo $0
+  617  2025-02-19 04:26  chsh -s /bin/bash
+  618  2025-02-19 04:26  echo $SHELL
+  619  2025-02-19 04:26  chsh -s /bin/zsh
+  620  2025-02-19 04:26  run bash
+  621  2025-02-19 04:26  cat /ect/shells
+  622  2025-02-19 04:26  cat /etc/shells
+  623  2025-02-19 04:26  bash
+  624  2025-02-19 04:26  ls -al /bin
+  625  2025-02-19 04:26  cshs -l
+  626  2025-02-19 04:26  chsh -l
+  627  2025-02-19 04:26  chsh --list-shells
+  628  2025-02-19 04:26  cat /etc/shells
+  629  2025-02-19 04:26  clear
+  630  2025-02-19 04:26  source .zshrc
+  631  2025-02-19 04:26  clear
+  632  2025-02-19 04:26  cd projects/sf-samples/lwc-recipes
+  633  2025-02-19 04:26  clear
+  634  2025-02-19 04:26  cd
+  635  2025-02-19 04:26  clear
+  636  2025-02-19 04:26  cd projects/sf-samples/lwc-recipes
+  637  2025-02-19 04:26  cd
+  638  2025-02-19 04:26  cd learncmd
+  639  2025-02-19 04:26  ls -al 
+  640  2025-02-19 04:26  touch file1 file2 file3
+  641  2025-02-19 04:26  ls -al 
+  642  2025-02-19 04:26  mkdir dir1 dir2
+  643  2025-02-19 04:26  ls -al 
+  644  2025-02-19 04:26  date -u
+  645  2025-02-19 04:26  date --utc
+  646  2025-02-19 04:26  clear
+  647  2025-02-19 04:26  ls -al
+  648  2025-02-19 04:26  clear
+  649  2025-02-19 04:26  ls -l
+  650  2025-02-19 04:26  touch .hiddenfile1 .hiddenfile2
+  651  2025-02-19 04:26  clear
+  652  2025-02-19 04:26  ls -l
+  653  2025-02-19 04:26  ls -al
+  654  2025-02-19 04:26  sf limits --help
+  655  2025-02-19 04:26  cd ..
+  656  2025-02-19 04:26  clear
+  657  2025-02-19 04:26  sf org list limits --help
+  658  2025-02-19 04:26  sf update
+  659  2025-02-19 04:26  brew update
+  660  2025-02-19 04:26  brew upgrade node
+  661  2025-02-19 04:26  npm --version
+  662  2025-02-19 04:26  node --version
+  663  2025-02-19 04:26  brew info
+  664  2025-02-19 04:26  brew --help
+  665  2025-02-19 04:26  brew info nvm
+  666  2025-02-19 04:26  brew install nvm
+  667  2025-02-19 04:26  ls -al 
+  668  2025-02-19 04:26  brew uninstall nvm
+  669  2025-02-19 04:26  sf org list limits --help
+  670  2025-02-19 04:26  clear
+  671  2025-02-19 04:26  sf org list
+  672  2025-02-19 04:26  sf org login web --alias learncli 
+  673  2025-02-19 04:26  sf org open --target-org learncli
+  674  2025-02-19 04:26  sf org open --target-org learncli --browser chrome
+  675  2025-02-19 04:26  sf org open --target-org blixtar
+  676  2025-02-19 04:26  sf data query --query 'SELECT Id, Name FROM Account'
+  677  2025-02-19 04:26  sf data query --query 'SELECT Id, Name FROM Account' --target-org learncli
+  678  2025-02-19 04:26  sf org list limits --target-org pchittum-dev-org
+  679  2025-02-19 04:26  sf org list limits --target-org blixtar
+  680  2025-02-19 04:26  sf org list limits --help
+  681  2025-02-19 04:26  sf org open --target-org learncli --browser chrome
+  682  2025-02-19 04:26  sf data query --query 'SELECT Id, Name FROM Account' --target-org learncli
+  683  2025-02-19 04:26  jq
+  684  2025-02-19 04:26  sf org list limits --target-org learncli --json | jq
+  685  2025-02-19 04:26  cd learncmd
+  686  2025-02-19 04:26  cd ..
+  687  2025-02-19 04:26  mv learncmd learncli
+  688  2025-02-19 04:26  cd learncli
+  689  2025-02-19 04:26  sf org list limits --target-org learncli --json > currentlimits.json
+  690  2025-02-19 04:26  jq . currentlimits.json
+  691  2025-02-19 04:26  jq .result currentlimits.json
+  692  2025-02-19 04:26  jq .result.[] currentlimits.json
+  693  2025-02-19 04:26  jq .result[] currentlimits.json
+  694  2025-02-19 04:26  jq .result \ .[] currentlimits.json
+  695  2025-02-19 04:26  jq .result \ [] currentlimits.json
+  696  2025-02-19 04:26  code .
+  697  2025-02-19 04:26  jq .result | .[] currentlimits.json
+  698  2025-02-19 04:26  jq .result | [] currentlimits.json
+  699  2025-02-19 04:26  jq .result.[] currentlimits.json
+  700  2025-02-19 04:26  jq .result currentlimits.json
+  701  2025-02-19 04:26  jq .result limits.json
+  702  2025-02-19 04:26  jq .result | .[] limits.json
+  703  2025-02-19 04:26  jq .result.[] limits.json
+  704  2025-02-19 04:26  jq .result[] limits.json
+  705  2025-02-19 04:26  jq '.result[]' limits.json
+  706  2025-02-19 04:26  jq '.result[0]' limits.json
+  707  2025-02-19 04:26  jq '.result[0].name' limits.json
+  708  2025-02-19 04:26  jq '.result[0].name,.result[0].max' limits.json
+  709  2025-02-19 04:26  jq '.result | .[0].name,.[0].max' limits.json
+  710  2025-02-19 04:26  jq '.result | select(.name="ConcurrentAsyncGetReportInstances")' limits.json
+  711  2025-02-19 04:26  jq '.result[] | select(.name="ConcurrentAsyncGetReportInstances")' limits.json
+  712  2025-02-19 04:26  jq '.result[] | select(.name=="ConcurrentAsyncGetReportInstances")' limits.json
+  713  2025-02-19 04:26  jq '.result[] | select(.name=="ConcurrentAsyncGetReportInstances") | .remaining' limits.json
+  714  2025-02-19 04:26  jq '.result[] | select(.name=="ConcurrentAsyncGetReportInstances") | {limit: .name, max: .max, remain: .remaining' limits.json
+  715  2025-02-19 04:26  jq '.result[] | select(.name=="ConcurrentAsyncGetReportInstances") | {limit: .name, max: .max, remain: .remaining}' limits.json
+  716  2025-02-19 04:26  jq '.result[] | select(.name=="ConcurrentAsyncGetReportInstances") | {.name: {max: .max, remain: .remaining}}' limits.json
+  717  2025-02-19 04:26  jq '.result[] | select(.name=="ConcurrentAsyncGetReportInstances") | {.name: {max: .max, remain: .remaining}}' limits.jsonclear
+  718  2025-02-19 04:26  clear
+  719  2025-02-19 04:26  sf org list limits --target-org learncli
+  720  2025-02-19 04:26  man date
+  721  2025-02-19 04:26  ls -al
+  722  2025-02-19 04:26  wc -l limits.json
+  723  2025-02-19 04:26  wc limits.json
+  724  2025-02-19 04:26  sf data query --query 'SELECT Id, Name FROM Account' --target-org learncli --result-format csv --output-fill accounts.csv
+  725  2025-02-19 04:26  sf data query --query 'SELECT Id, Name FROM Account' --target-org learncli --result-format csv --output-file accounts.csv
+  726  2025-02-19 04:26  cat accounts.csv
+  727  2025-02-19 04:26  sf data query --query 'SELECT Id, Name, Status FROM Account' --target-org learncli --result-format csv --output-file accounts.csv
+  728  2025-02-19 04:26  sf data query --query 'SELECT Fields(All) FROM Account LIMIT 50' --target-org learncli --result-format csv --output-file accounts.csv
+  729  2025-02-19 04:26  cat accounts.csv
+  730  2025-02-19 04:26  head -n 1 accounts.csv
+  731  2025-02-19 04:26  sf data query --query 'SELECT Fields(All) FROM Account LIMIT 1' --target-org learncli --json --output-file accounts.json
+  732  2025-02-19 04:26  jq accounts.json
+  733  2025-02-19 04:26  jq . accounts.csv
+  734  2025-02-19 04:26  jq . accounts.json
+  735  2025-02-19 04:26  sf data query --query 'SELECT Fields(All) FROM Account LIMIT 1' --target-org learncli --output-format json --output-file accounts.json
+  736  2025-02-19 04:26  sf data query --query 'SELECT Fields(All) FROM Account LIMIT 1' --target-org learncli --result-format json --output-file accounts.json
+  737  2025-02-19 04:26  jq . accounts.json
+  738  2025-02-19 04:26  jq .records[0] accounts.json
+  739  2025-02-19 04:26  jq .records[] accounts.json
+  740  2025-02-19 04:26  jq '.records[0]' accounts.json
+  741  2025-02-19 04:26  clear
+  742  2025-02-19 04:26  sf data query --query Id, Name, Type, Rating FROM Account' --target-org learncli --result-format json --output-file accounts.json\n
+  743  2025-02-19 04:26  sf org list limits
+  744  2025-02-19 04:26  sf org list limits --target-org learncli
+  745  2025-02-19 04:26  sf data query --query 'SELECT Id, Name, Type, Rating FROM Account' --target-org learncli --result-format json --output-file accounts.json\n
+  746  2025-02-19 04:26  jq '.records[0]' accounts.json
+  747  2025-02-19 04:26  jq '.records[0] | .Name, .Type' accounts.json
+  748  2025-02-19 04:26  sf data query --query 'SELECT Id, Name, Type, Rating FROM Account' --target-org learncli --result-format csv --output-file accounts.csv\n
+  749  2025-02-19 04:26  head accounts.csv
+  750  2025-02-19 04:26  grep '^.*,$' accounts.csv
+  751  2025-02-19 04:26  grep '^.*,$' accounts.csv | sed 's/,/,Warm/'
+  752  2025-02-19 04:26  grep '^.*,$' accounts.csv | sed 's/^.*,$/,Warm/'
+  753  2025-02-19 04:26  grep '^.*,$' accounts.csv | sed 's/\(.*\),/,Warm/'
+  754  2025-02-19 04:26  grep '\(.*\),' accounts.csv | sed 's/\(.*\),/,Warm/'
+  755  2025-02-19 04:26  grep '^.*,$' accounts.csv | sed 's/\(.*\)\,/,Warm/'
+  756  2025-02-19 04:26  grep '^.*,$' accounts.csv | sed -E 's/\(.*\)\,/,Warm/'
+  757  2025-02-19 04:26  grep '^.*,$' accounts.csv | sed -E 's/\(.*\),/,Warm/'
+  758  2025-02-19 04:26  man sed
+  759  2025-02-19 04:26  grep '^.*,$' accounts.csv | sed -E 's/\(.*\),/,Warm/3'
+  760  2025-02-19 04:26  grep '^.*,$' accounts.csv | sed -E 's/,/,Warm/3'
+  761  2025-02-19 04:26  sf data query --help
+  762  2025-02-19 04:26  sf data query --query 'SELECT Id, Rating FROM Account' --target-org learncli --result-format csv --output-file accounts.csv\n
+  763  2025-02-19 04:26  cat accounts.csv
+  764  2025-02-19 04:26  grep '^.*,$' accounts.csv | sed -E 's/,/,Warm'
+  765  2025-02-19 04:26  grep '^.*,$' accounts.csv | sed -E 's/,/,Warm/'
+  766  2025-02-19 04:26  sf data query --query 'SELECT Id, Rating FROM Account' --target-org learncli --result-format json --output-file accounts.json\n
+  767  2025-02-19 04:26  jq . accounts.json
+  768  2025-02-19 04:26  sf sobject describe --sobject Account
+  769  2025-02-19 04:26  sf sobject describe --sobject Account -o learncli
+  770  2025-02-19 04:26  sf sobject describe --sobject Account -o learncli --help
+  771  2025-02-19 04:26  sf sobject describe --sobject Account | jq '.fields | map(.name)'
+  772  2025-02-19 04:26  sf sobject describe --sobject Account | jq '.fields | map(.name)' -o learncli
+  773  2025-02-19 04:26  sf sobject describe --sobject Account -o learncli | jq '.fields | map(.name)' 
+  774  2025-02-19 04:26  sf sobject describe --sobject Account -o learncli | jq '.fields[0]'
+  775  2025-02-19 04:26  sf sobject describe --sobject Account -o learncli | jq '.fields | map(.label, .name, .type)' 
+  776  2025-02-19 04:26  clear
+  777  2025-02-19 04:26  sf
+  778  2025-02-19 04:26  sf force
+  779  2025-02-19 04:26  sf
+  780  2025-02-19 04:26  sf org list limits
+  781  2025-02-19 04:26  sf org list limits --target-org learncli
+  782  2025-02-19 04:26  open accounts.csv
+  783  2025-02-19 04:26  sf data query --quer -o learncli --query
+  784  2025-02-19 04:26  sf data query -o learncli --query 'SELECT Id FROM Report Using SCOPE allPrivate WHERE LastRunDate < LAST_N_DAYS:365' --result-format csv
+  785  2025-02-19 04:26  sf data query -o learncli --query 'SELECT Id FROM Report Using SCOPE allPrivate' --result-format csv
+  786  2025-02-19 04:26  sf data query -o learncli --query 'SELECT Id FROM Report' --result-format csv
+  787  2025-02-19 04:26  sf data query -o learncli --query 'SELECT Id, Name FROM Report' --result-format csv
+  788  2025-02-19 04:26  sf data query -o learncli --query 'SELECT Fields(ALL) FROM Report LIMIT 20' --result-format csv
+  789  2025-02-19 04:26  clear
+  790  2025-02-19 04:26  sf org open --target-org learncli --browser chrome
+  791  2025-02-19 04:26  sf org open --target-org blixtar --browser chrome
+  792  2025-02-19 04:26  sf org open --target-org blixtar --browser chrome --path lightning/o/Account/list
+  793  2025-02-19 04:26  sf org create sandbox --alias mysandbox --definition-file sandbox-def.json --target-org my-prod-org --set-default --name mysandbox --help
+  794  2025-02-19 04:26  sf org create sandbox --alias mysandbox --target-org my-prod-org --set-default --name mysandbox --license-type Developer --help
+  795  2025-02-19 04:26  sf which permset
+  796  2025-02-19 04:26  sf org refresh sandbox --help
+  797  2025-02-19 04:26  sf help
+  798  2025-02-19 04:26  sf search doc
+  799  2025-02-19 04:26  sf search permset
+  800  2025-02-19 04:26  sf search --help
+  801  2025-02-19 04:26  sf search data
+  802  2025-02-19 04:26  sf --hekp
+  803  2025-02-19 04:26  sf info --help
+  804  2025-02-19 04:26  sf info releasenotes display
+  805  2025-02-19 04:26  sf whatsnew
+  806  2025-02-19 04:26  sf
+  807  2025-02-19 04:26  sf --help
+  808  2025-02-19 04:26  ls
+  809  2025-02-19 04:26  ls -al 
+  810  2025-02-19 04:26  sf data query -q 'SELECT LastName, FirstName FROM Contact' --result-format csv -o learncli
+  811  2025-02-19 04:26  sf data query -q 'SELECT LastName, FirstName FROM Contact' --result-format csv -o learncli > names.txt
+  812  2025-02-19 04:26  cat names.txt
+  813  2025-02-19 04:26  wc -l names.txt
+  814  2025-02-19 04:26  tail names.txt > dupes && cat names.txt dupes names.csv
+  815  2025-02-19 04:26  tail names.txt > dupes && cat names.txt dupes > names.csv
+  816  2025-02-19 04:26  sort names.txt
+  817  2025-02-19 04:26  sort names.csv
+  818  2025-02-19 04:26  wc names.csv
+  819  2025-02-19 04:26  tail -n 30 names.csv
+  820  2025-02-19 04:26  tail -n 30 names.csv | sort
+  821  2025-02-19 04:26  rm dupes
+  822  2025-02-19 04:26  rm names.txt
+  823  2025-02-19 04:26  mv names.csv names.txt
+  824  2025-02-19 04:26  tail -n 30 names.csv | sort | uniq
+  825  2025-02-19 04:26  tail -n 30 names.txt | sort | uniq
+  826  2025-02-19 04:26  tail -n 30 names.txt | sort | uniq | wc -l 
+  827  2025-02-19 04:26  tail -n 30 names.txt | sort | uniq > names-unique.txt
+  828  2025-02-19 04:26  cat names-unique.txt
+  829  2025-02-19 04:26  grep -i 'gr' names-unique.txt
+  830  2025-02-19 04:26  grep -i 'bo' names-unique.txt
+  831  2025-02-19 04:26  grep -i 'o[n,l]' names-unique.txt
+  832  2025-02-19 04:26  grep -i 'o[n,r]' names-unique.txt
+  833  2025-02-19 04:26  sf data query -q 'SELECT Id, Rating, Name FROM Account'
+  834  2025-02-19 04:26  sf data query -q 'SELECT Id, Rating, Name FROM Account' -o learncli
+  835  2025-02-19 04:26  sf data query -q 'SELECT Id, Rating, Name FROM Account' -o learncli --result-format csv
+  836  2025-02-19 04:26  sf data query -q 'SELECT Id, Rating, Name FROM Account' -o learncli --result-format csv | grep ',,'
+  837  2025-02-19 04:26  sf data query -q 'SELECT Id, Rating, Name FROM Account' -o learncli --result-format csv | grep ',,' | sed 's/,,/,Warm,/'
+  838  2025-02-19 04:26  sf data query --query "SELECT CaseId,CreatedDate,Field,OldValue,NewValue FROM CaseHistory ORDER BY CreatedDate" --result-format human --target-org learncli
+  839  2025-02-19 04:26  cd learncli
+  840  2025-02-19 04:26  ls -al 
+  841  2025-02-19 04:26  code names.txt
+  842  2025-02-19 04:26  rm names-unique.txt
+  843  2025-02-19 04:26  open accounts.csv
+  844  2025-02-19 04:26  clear
+  845  2025-02-19 04:26  sf
+  846  2025-02-19 04:26  sf data
+  847  2025-02-19 04:26  clear
+  848  2025-02-19 04:26  sf data --help
+  849  2025-02-19 04:26  sf data query --help
+  850  2025-02-19 04:26  sf org list
+  851  2025-02-19 04:26  sf org open --target-org learncli --browser chrome
+  852  2025-02-19 04:26  clear
+  853  2025-02-19 04:26  sf org list limits
+  854  2025-02-19 04:26  sf org list limits --target-org learncli
+  855  2025-02-19 04:26  sf data query -q 'SELECT Id, Rating, Name FROM Account' -o learncli --result-format csv 
+  856  2025-02-19 04:26  sf data query -q 'SELECT Id, Rating, Name FROM Account' -o learncli --result-format csv | grep ',,'
+  857  2025-02-19 04:26  sf data query -q 'SELECT Id, Rating, Name FROM Account' -o learncli --result-format csv | grep ',,' | sed 's/,,/,Warm,/' > accts.csv 
+  858  2025-02-19 04:26  cat accts.csv
+  859  2025-02-19 04:26  sf data upsert bulk --external-id Id --sobject Account --target-org learncli --file accts.csv
+  860  2025-02-19 04:26  sf data query -q 'SELECT Id, Rating, Name FROM Account' -o learncli --result-format csv 
+  861  2025-02-19 04:26  sf data upsert bulk --external-id Id --sobject Account --target-org learncli --file accts.csv --wait 10
+  862  2025-02-19 04:26  sf data query -q 'SELECT Id, Rating, Name FROM Account' -o learncli --result-format csv | head -n 1 > header.csv
+  863  2025-02-19 04:26  cat header.csv
+  864  2025-02-19 04:26  cat header.csv accts.csv
+  865  2025-02-19 04:26  cat header.csv accts.csv > accts-with-header.csv
+  866  2025-02-19 04:26  sf data upsert bulk --external-id Id --sobject Account --target-org learncli --file accts-with-header.csv --wait 10
+  867  2025-02-19 04:26  sf data query -q 'SELECT Id, Rating, Name FROM Account' -o learncli --result-format csv 
+  868  2025-02-19 04:26  clear
+  869  2025-02-19 04:26  sf search auth
+  870  2025-02-19 04:26  sf auth web login --
+  871  2025-02-19 04:26  sf whoami
+  872  2025-02-19 04:26  sf org display
+  873  2025-02-19 04:26  sf org display --target-org learncli
+  874  2025-02-19 04:26  sf auth web login --help
+  875  2025-02-19 04:26  clear
+  876  2025-02-19 04:26  sf org list limits --target-org learncli
+  877  2025-02-19 04:26  sf data query --help
+  878  2025-02-19 04:26  clear
+  879  2025-02-19 04:26  sf data query --query 'SELECT id, name, rating, annualrevenue FROM Account' --target-org learncli
+  880  2025-02-19 04:26  sf data query --query 'SELECT id, name, rating, annualrevenue FROM Account' --target-org learncli --result-format csv > accounts.csv
+  881  2025-02-19 04:26  open accounts.csv
+  882  2025-02-19 04:26  say "the food is in the back of the room" 
+  883  2025-02-19 04:26  say "the food is in the back of the room" -v fiona
+  884  2025-02-19 04:26  ping www.google.com
+  885  2025-02-19 04:26  ping -c 10 www.google.com
+  886  2025-02-19 04:26  pwd
+  887  2025-02-19 04:26  cd ..
+  888  2025-02-19 04:26  clear
+  889  2025-02-19 04:26  mkdir learncmd
+  890  2025-02-19 04:26  cd learncmd
+  891  2025-02-19 04:26  finder 
+  892  2025-02-19 04:26  word
+  893  2025-02-19 04:26  word.app
+  894  2025-02-19 04:26  clear
+  895  2025-02-19 04:26  clear
+  896  2025-02-19 04:26  cd ..
+  897  2025-02-19 04:26  clear
+  898  2025-02-19 04:26  echo $0
+  899  2025-02-19 04:26  echo $USER
+  900  2025-02-19 04:26  echo $HOSTNAME
+--
+ 1911  2025-06-25 07:06  history | grep -w 600 -A 20
