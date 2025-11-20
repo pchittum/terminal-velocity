@@ -1,4 +1,4 @@
-#First Exercise
+# First Exercise
 
 1. Open your terminal. Either Windows Terminal or Mac Terminal.
 2. If using Windows, make sure you're running PowerShell. 
