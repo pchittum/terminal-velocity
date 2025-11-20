@@ -24,6 +24,7 @@ Again, technically it doesn't. But a new org makes it less likely you'll trip ov
 
 So if you need it, go [sign up](https://www.salesforce.com/form/developer-signup/?d=pb) for a new org now. 
 
-## To Do
-- Upload useful zsh and powershell commands as images and put into readme
+## Cheatsheets
+View some [lists](https://github.com/pchittum/terminal-velocity/blob/begin-exercises/wkshop-files/COMMANDS.md) of common commands. 
+
 
