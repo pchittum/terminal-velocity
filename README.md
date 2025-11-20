@@ -23,3 +23,7 @@ Well, technically it doesn't need to be, but it will make connecting to the org 
 Again, technically it doesn't. But a new org makes it less likely you'll trip over old customizations. And obviously *do not do any of the exercises in a production org*. That's a bad, bad idea. 
 
 So if you need it, go [sign up](https://www.salesforce.com/form/developer-signup/?d=pb) for a new org now. 
+
+## To Do
+- Upload useful zsh and powershell commands as images and put into readme
+
